@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/weather', (req, res) => {
-    res.json({ user: 'maham kanwal' })
+    res.json({ user: 'maham' })
   })
   app.get('/weather/:cityName', (req, res) => {
     res.send(req.params)
